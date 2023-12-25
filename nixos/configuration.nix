@@ -149,6 +149,10 @@
       vsce
       vscode
       helix
+      nodejs_21
+      tdesktop
+      vlc
+      docker
 
     #  thunderbird
     ];
