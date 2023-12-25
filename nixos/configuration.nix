@@ -153,7 +153,7 @@
       tdesktop
       vlc
       docker
-
+      git-credential-manager
     #  thunderbird
     ];
     };
