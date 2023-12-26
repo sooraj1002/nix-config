@@ -154,6 +154,7 @@
       vlc
       docker
       git-credential-manager
+      google-chrome
     #  thunderbird
     ];
     };
