@@ -57,10 +57,7 @@ in
       scanfor = "RES=$(rg -n . | sk); hx +$(echo $RES | cut -d ':' -f 2) $(echo $RES | cut -d ':' -f 1)";
     };
     initExtra = ''
-      macchina
       source $(blesh-share)/ble.sh
-      set -o vi
-      eval "$(direnv hook bash)"
       eval "$(starship init bash)"
     '';
     sessionVariables = {
@@ -87,4 +84,10 @@ in
       NIXOS_OZONE_WL = "1";
     };
   };
+
+  home.packages = with pkgs; [  
+    macchina
+    blesh
+  ];
+
 }

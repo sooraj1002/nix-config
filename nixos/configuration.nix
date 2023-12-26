@@ -180,6 +180,14 @@
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
     cloudflare-warp
+    gparted
+    neovim
+    curl
+    file
+    gh
+    ffmpeg
+    whois
+    zip
   ];
 
   # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
