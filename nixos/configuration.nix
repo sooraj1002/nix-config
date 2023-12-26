@@ -157,6 +157,8 @@
       docker
       git-credential-manager
       google-chrome
+      flameshot
+      easyeffects
     #  thunderbird
     ];
     };
@@ -177,6 +179,7 @@
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
+    cloudflare-warp
   ];
 
   # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
